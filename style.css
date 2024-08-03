@@ -20,7 +20,7 @@ header nav{
         justify-content: space-between;
     align-items: center;
     z-index: 1;
-    background-image: url(assests/cutting\ board\ background.jpg);
+    background-image: url(cutting\ board\ background.jpg);
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,7 +29,7 @@ header nav{
 body {
     background-color: rgb(138, 121, 143);
     color: whitesmoke;
-    background-image: url(assests/food\ Preparation1.jpg);
+    background-image: url(food\ Preparation1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
