@@ -13,7 +13,7 @@ const fetchRecipes = async (query) => {
        
 
     recipeContainer.innerHTML = "";
-    response.meals.forEach(meal  => {
+    response.meals.forEach(meal => {
         
    
         const recipeDiv = document.createElement('div');
