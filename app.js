@@ -23,7 +23,7 @@ const fetchRecipes = async (query) => {
                 <h3>${meal.strMeal}</h3>
                 <p>Location : <span>${meal.strArea}</span> Dish</p>
                 <p>Belongs to <span>${meal.strCategory}</span> Category</p>
-                <p><span>${meal.strYoutube}<span></p>
+                <a href=><span>${meal.strYoutube}<span>Video</a>
             `
 
             
