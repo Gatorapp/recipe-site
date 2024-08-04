@@ -22,10 +22,10 @@ const fetchRecipes = async (query) => {
                 <img src="${meal.strMealThumb}">
                 <h3>${meal.strMeal}</h3>
                 <p>Location : <span>${meal.strArea}</span> Dish</p>
-                <p>Belongs to <span>${meal.strCategory}</span> Category</p>
-                <p>YouTube Video : <span>${meal.strYoutube}</span></p>
+                <p>Belongs to <span>${meal.strCategory}</span> Category</p>               
+                <a class="video" href= "${meal.strYoutube}">Watch Video</a>
             `
-
+           
             
             const button = document.createElement('button');
             button.textContent = "View Recipe";

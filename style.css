@@ -204,6 +204,11 @@ section h2 {
     margin-bottom: 25px;
 }
 
+.video {
+    color: #cc3e34;
+    gap: 50px;
+}
+
 @media (max-width: 680px) {
     header nav {
         flex-direction: column;
